@@ -190,8 +190,8 @@ SPICE_REPO=${SPICE_REPO:-http://anongit.freedesktop.org/git/spice/spice-html5.gi
 SPICE_BRANCH=${SPICE_BRANCH:-master}
 
 # trove service
-TROVE_REPO=${TROVE_REPO:-${GIT_BASE}/openstack/trove.git}
-TROVE_BRANCH=${TROVE_BRANCH:-master}
+TROVE_REPO=${TROVE_REPO:-${GIT_BASE}/denismakogon/trove.git}
+TROVE_BRANCH=${TROVE_BRANCH:-guest_conf}
 
 # trove client library test
 TROVECLIENT_REPO=${TROVECLIENT_REPO:-${GIT_BASE}/openstack/python-troveclient.git}
