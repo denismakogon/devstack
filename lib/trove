@@ -163,7 +163,7 @@ function configure_trove {
 
         iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT rabbit_password $RABBIT_PASSWORD
         iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT sql_connection `database_connection_url trove`
-        iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT taskmanager_manager trove.taskmanager.manager.Manager
+        iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT taskmanager_manager trove.taskmanager.native.Native
         iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT nova_proxy_admin_user radmin
         iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT nova_proxy_admin_tenant_name trove
         iniset $TROVE_CONF_DIR/trove-taskmanager.conf DEFAULT nova_proxy_admin_pass $RADMIN_USER_PASS
